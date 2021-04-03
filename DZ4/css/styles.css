@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 17px;
+
+    color: #95E1D3;
+}
+
+
+
+.list a::after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #F38181;
+    content: "";
+    transition: 0.3s ease-out;
+}
+
+.list a:hover {
+    color: #F38181;
+}
+
+li {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+.Title {
+    margin-top: 81px;
+    font-family: 'Kaushan Script', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.services {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+    margin-top: 20px;
+}
+
+.list a {
+    position: relative;
+    color: #95E1D3;
+    cursor: pointer;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+
+a:hover:after,
+a:focus:after {
+    width: 100%;
+}
+
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #B6B6B6;
+}
+
+.img-block {
+    display: flex;
+    height: 100%;
+    width: 11.17%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 23.61px;
+}
+
+
+
+.container {
+    width: 65.625vw;
+}
+
+.line {
+    display: inline-block;
+    height: 4px;
+    width: 60px;
+    background-color: #F38181;
+    margin-bottom: 65px;
+    margin-top: 40px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-block h2 {
+    margin-bottom: 20px;
+}
+
+.list {
+    margin-top: 32px;
+    justify-content: space-between;
+    display: flex;
+    width: 470px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.benefit {
+    display: flex;
+    width: 28.33%;
+    /* flex-wrap: wrap; */
+    margin-bottom: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+/* вторая часть */
+/* вторая часть */
+/* вторая часть */
+/* вторая часть */
+/* вторая часть */
+/* вторая часть */
+
+.text2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #B6B6B6;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+
+.line2 {
+    display: inline-block;
+    height: 4px;
+    width: 60px;
+    background-color: #F38181;
+    margin-bottom: 45px;
+    margin-top: 40px;
+}
+
+.first-man .man {
+    background-image: url(../images/img7.svg);
+}
+
+.second-man .man {
+    background-image: url(../images/img8.svg);
+}
+
+.third-man .man {
+    background-image: url(../images/img9.svg);
+}
+
+.person {
+    width: 30.95%;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: center;
+    font-variant: small-caps;
+    
+    color: #333333;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.job {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #B6B6B6;
+    text-align: center;
+    margin-top: 11px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.person {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30.95%;
+}
+
+.gradient {
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    min-height: 470px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%);
+}
+
+.social-item {
+    width: 57px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1px;
+    background: #FCE38A;
+}
+
+.social-item:hover {
+    background: #95E1D3;
+}
+
+.social {
+    display: flex;
+}
+
+.copy {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 22px;
+}
+
+.orange-text {
+    color: #F38181;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team {
+    margin-bottom: 80px;
+}
+
+.margin {
+    margin-bottom: 22px;
+}
+
+.footer-form input {
+    height: 38px;
+    padding-left: 10px;
+    border: 1px solid #B6B6B6;
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+    color: #B6B6B6;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.footer-form button {
+    width: 150px;
+    height: 40px;
+    background: #95E1D3;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10px;
+    border:none;
+    color: #FFFFFF;
+}
+
+.first-man:hover .gradient {
+    display: flex;
+}
+
+.second-man:hover .gradient {
+    display: flex;
+}
+
+.third-man:hover .gradient {
+    display: flex;
+}
+
+.footer-line {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: #B6B6B6;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.who {
+    font-family: 'Kaushan Script', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.man{
+    width: 100%;
+    min-height: 470px;
+    background-size: cover;
+    background-position: center;
+}

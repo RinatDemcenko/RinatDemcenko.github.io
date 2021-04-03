@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto+Slab&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+
+    color: #FED136;
+    margin-top: 35px;
+}
+
+li {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+
+}
+
+.Title {
+    margin-top: 81px;
+    font-family: 'Kaushan Script', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.services {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 75px;
+    color: #333333;
+    margin-top: 92px;
+    margin-bottom: 93.5px;
+}
+
+.list a {
+    color: #FED136;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 75px;
+    text-align: center;
+}
+
+a:hover:after,
+a:focus:after {
+    width: 100%;
+}
+
+.text {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+    text-align: center;
+}
+
+.img-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #FED136;
+}
+
+
+
+.container {
+    width: 942px;
+}
+
+.line {
+    display: inline-block;
+    height: 4px;
+    width: 60px;
+    background-color: #F38181;
+    margin-bottom: 65px;
+    margin-top: 40px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-block h2 {
+    margin-bottom: 20px;
+}
+
+.list {
+    margin-top: 41.5px;
+    justify-content: space-between;
+    display: flex;
+    width: 480px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.benefit {
+    width: 31%;
+    /* flex-wrap: wrap; */
+    margin-bottom: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.contactform {
+    width: 100%;
+    height: 679px;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+}
+
+.secondtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 92px;
+}
+
+.imgСontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    background: #FED136;
+    width: 242px;
+    height: 68px;
+    color: #FFFFFF;
+    margin-top: 29px;
+    border: none;
+    cursor: pointer
+}
+
+.contact{
+    margin-top: 114px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+input {
+    width: 455px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding-left: 10px;
+    border: 1px solid #CCCCCC;
+}
+
+input::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BBBBBB;
+}
+
+textarea {
+    width: 45%;
+    height: 212px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding-left: 22px;
+    padding-top: 14px;
+    border: 1px solid #CCCCCC;
+}
+
+textarea::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BBBBBB;
+ 
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}

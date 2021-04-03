@@ -1,0 +1,204 @@
+body {
+  background-color: #f5f7fa;
+  padding: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #fff;
+}
+
+.bio,
+.projects,
+.jobs,
+.education {
+  margin-bottom: 60px;
+}
+
+.right-side {
+  width: 830px;
+  padding-left: 80px;
+  padding-right: 200px;
+  padding-top: 68px;
+  padding-bottom: 68px;
+}
+
+.bio-title {
+  font-size: 45px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.bio-occupation {
+  margin-bottom: 27px;
+}
+
+.bio-title,
+.bio-occupation {
+  color: #2a2a2a;
+}
+
+.bio-occupation,
+.bio-about {
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+.bio-about {
+  color: #595959;
+}
+
+.projects-title {
+  margin-bottom: 14px;
+  color: #2a2a2a;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.projects-link {
+  color: #220fdc;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.projects-link:hover {
+  color: #ff6b08;
+}
+
+.jobs-title,
+.education-title {
+  color: #2a2a2a;
+  font-size: 22px;
+  line-height: 1.091;
+}
+
+.jobs-occupation,
+.education-degree {
+  color: #2a2a2a;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.jobs-time,
+.education-time {
+  color: #828282;
+  font-size: 12px;
+  line-height: 2;
+}
+
+.experience-item {
+  color: #595959;
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+.accent {
+  color: #ff6b08;
+}
+
+.accent2 {
+ color:blueviolet;
+}
+
+/* ========= left-side ========= */
+
+.left-side {
+  width: 370px;
+  background-color: #1e2939;
+  color: #fff;
+}
+
+.skills-title {
+  font-size: 22px;
+  line-height: 1.091;
+}
+
+.skills-item {
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-item::before {
+  content: "\2022";
+  margin-right: 8px;
+  color: #ff6b08;
+  font-size: 18px;
+}
+
+.photo {
+  width: 370px;
+}
+
+.photo,
+.contacts,
+.skills,
+.widget {
+  margin-bottom: 60px;
+}
+
+.contacts,
+.skills,
+.widget {
+  padding-left: 40px;
+}
+
+.contacts-title,
+.skills-title {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.contacts-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contacts-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.contacts-link {
+  opacity: 0.6;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contacts-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.widget-link {
+  color: #fff;
+  background: #ff6b08;
+  padding-top: 20px;
+  padding-right: 43px;
+  padding-bottom: 20px;
+  padding-left: 43px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.best{
+  background: linear-gradient(45deg, #FFD700 30%, #FFFF00 70%, #FFD700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+}
