@@ -133,6 +133,6 @@ function myFunction() {
     btn.innerHTML = "Поставить видео на паузу";
   } else {
     video.pause();
-    btn.innerHTML = "Поставить мне доп балл)";
+    btn.innerHTML = "А ещё поставьте мне доп балл)))";
   }
 }
