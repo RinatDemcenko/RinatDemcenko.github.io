@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <h1 class="logo">RIN TASKS</h1>
+        </div>
+        <div class="menu-container">
+            <h2 class="item">About project</h2>
+            <h2 class="item">About us</h2>
+        </div>
+
+    </header>
+    <main>
+        <section class="tasks">
+            <div class="taskcontainer ">
+                <div class="heading">To do</div>
+                <div class="taskslist">
+                    <ul class="to-do">
+                        <li class="task">
+                          <h5>Научиться пользоваться RinTasks</h5>
+                          <p>Освоить азы функционала</p>
+                          <svg xmlns="http://www.w3.org/2000/svg" class = "cross" width = "34" height = "34" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                          </svg>  
+                        </li>
+                        <li class="task">
+                            <h5>Выгулять собаку</h5>
+                            <p>пойти с рексом во двор в 19:00 и  ахахаха</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class = "cross" width = "34" height = "34" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                              </svg>
+                          </li>
+                          <li class="task">
+                            <h5>Выучить уроки</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class = "cross" width = "34" height = "34" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                              </svg>  
+                          </li>
+                    </ul>
+                    <li class="created task js-todo-editor">
+                        <form class = "js-form">
+                        <input type="text" class="inputik" name="nameinput" placeholder="name">
+                        <input type="text" class="inputik" name="descinput" placeholder="description">
+                        <div class="radiobuttons">
+                            <div class="radiobut">
+                                <input type="radio" class="radioButton" name = "priority" value="L" id="L"><b class="mark">L</b>
+                            </div>
+                            <div class="radiobut">
+                                <input type="radio" class="radioButton" name = "priority" value="M" id="M"><b class="mark">M</b>
+                            </div>
+                            <div class="radiobut">
+                                <input type="radio" class="radioButton" name = "priority" value="H" id="H"><b class="mark">H</b>
+                            </div>
+                        </div>
+                        <div class="butcont">
+                        <button type="submit" class="save">save</button>
+                    </div>
+                </form>
+                    </li>
+                    <div class="butcont">
+                        <button class="create">create task</button>
+                    </div>
+                </div>
+            </div>
+            <div class="taskcontainer">
+                <div class="heading">In progress</div>
+                <div class="taskslist">
+                    <ul class="in-progress">
+                        <li class="task">
+                            <h5>Lorem ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class = "cross" width = "34" height = "34" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                              </svg>  
+                          </li>
+                          <li class="task">
+                            <h5>Lorem ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class = "cross" width = "34" height = "34" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                              </svg> 
+                          </li>
+                          <li class="task">
+                            <h5>Lorem ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class = "cross" width = "34" height = "34" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                              </svg> 
+                          </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="taskcontainer">
+                <div class="heading">Done</div>
+                <div class="taskslist">
+                    <ul class="Done">
+                        <li class="task">
+                            <h5>Lorem ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class = "cross" width = "34" height = "34" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                              </svg>  
+                          </li>
+                          <li class="task">
+                            <h5>Lorem ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class = "cross" width = "34" height = "34" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                              </svg>  
+                          </li>
+                          <li class="task">
+                            <h5>Lorem ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class = "cross" width = "34" height = "34" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                              </svg> 
+                          </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+       
+    </main>
+    <footer>
+        <div class="social">
+            <img src="images/insta.svg" alt="ссылка на инсту">
+            <img src="images/twitter.svg" alt="ссылка на твиттер">
+            <img src="images/telegramm.svg" alt="ссылка на телегу">
+        </div>
+    
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <script src="JS FUNCTIONS/main.js"></script>
+</body>
+
+</html>

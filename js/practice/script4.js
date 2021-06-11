@@ -31,12 +31,12 @@ const galleryItems = [
     }
   ];
   
-    const gallery = doccument.querySelector(images)
-images.forEach(function(image){
-    const list = document.createElement("li");
-    const image = document.createElement('img');
-    image.setAttribute('src', images.url);
-    image.setAttribute('alt', images.alt);
-    console.log(image)
-}
-)\
+  const gallery = document.querySelector("#gallery");
+  galleryItems.forEach(function(image){
+      let li = document.createElement('li');
+      let img = document.createElement('img');
+      img.setAttribute('src', image.url);
+      img.setAttribute('alt', image.alt);
+      li.append(img);
+      gallery.append(li);
+  });

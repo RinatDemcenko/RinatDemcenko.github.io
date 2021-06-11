@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+header {
+    background: #C8DCFF;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+
+    color: #000000;
+}
+
+.item {
+    padding-right: 8vw;
+    display: flex;
+    align-items: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: rgba(0, 56, 255, 0.65);
+}
+
+.menu-container {
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo-container {
+    padding-left: 10%;
+}
+
+footer {
+    background: #C8DCFF;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10%;
+}
+
+main {
+    background: #fff;
+    width: 100%;
+
+}
+
+.taskcontainer {
+    display: block;
+
+
+    background: #D5E4FF;
+    border-radius: 25px;
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 804px;
+    height: 100%;
+}
+
+.tasks {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.task {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+
+    width: 300px;
+    min-height: 116px;
+    height: 100%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+    margin: 14px 7%;
+}
+
+.heading {
+    margin-top: 30px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.tasks h5 {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 15px;
+  padding-left: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.tasks p {
+   
+    padding-top: 11px;
+    padding-left: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.tasklist {
+    padding: 5px;
+}
+
+.tasks .arrow {
+    position: absolute;
+    right: 18px;
+    bottom: 0px;
+    display: none;
+    cursor: pointer;
+}
+
+.tasks .leftarrow {
+    position: absolute;
+    left: 18px;
+    bottom: 0px;
+    display: none;
+    cursor: pointer;
+}
+
+.tasks .cross {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    display: none;
+    cursor: pointer;
+}
+
+.task:hover .arrow {
+    display: inline;
+}
+
+.task:hover .leftarrow {
+    display: inline;
+}
+
+.task:hover .cross {
+    display: inline;
+}
+
+/* .tasks .arrow:hover {}
+
+.tasks .cross:hover {} */
+
+.tasks .create {
+    width: 294px;
+    height: 57px;
+
+    border-radius: 35px;
+    border-color:rgba(0, 56, 255, 0.7) ;
+    background-color: rgba(0, 56, 255);
+
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+    
+}
+
+.butcont {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.radiobuttons{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#radioButton{
+    height: 18px;
+    width: 18px;
+    background: #D4E4FF;
+}
+
+#radioButton:active {
+    background: #7595FF;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15);
+  }
+
+  .mark{
+      padding-left: 12px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #000000;
+  }
+
+  /* классы для js механизмов */
+ 
+
+
+
+.activetask{
+    height: 180px;
+}
+
+/* продолжение обычных классов */
+
+.Done p {
+    padding-top: 11px;
+    padding-right: 20px;
+    padding-left: 0px;
+text-align: right;
+}
+
+.in-progress p {
+    padding-top: 11px;
+    padding-left: 0px;
+ text-align: center;
+}
+
+.created{
+    display: none;
+    width: 300px;
+    height: 240px;
+}
+
+.inputik{
+    margin-top: 18px;
+    margin-left: 22px;
+    width: 251px;
+    height: 38px;
+    
+    background: #D4E4FF;
+    box-shadow: 0px 0px 5px 1px rgba(212, 228, 255, 1);
+    border-color: #D4E4FF;
+    border-radius: 10px; 
+
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.inputik::placeholder{
+padding-left: 20px;
+}
+
+.save{
+ 
+    width: 200px;
+    height: 45px;
+
+    border-radius: 35px;
+    border-color:rgba(0, 56, 255, 0.7) ;
+    background-color: rgba(0, 56, 255);
+    padding-bottom: 8px; 
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+

@@ -31,11 +31,12 @@ a {
     border-radius: 30px;
     width: 92px;
     height: 39px;
-    justify-content: center;
+    justify-content: s;
     align-items: center;
     display: flex;
 
 }
+
 
 .headerpart {
     width: 100%;
