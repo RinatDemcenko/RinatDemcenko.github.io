@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
 
+a{
+    text-decoration: none;
+    color: rgba(0, 56, 255, 0.65);
+    
+}
+a:hover {
+     text-decoration: none;
+     color: #7FFF00;
+     }
+
 header {
     
     background: #C8DCFF;
@@ -154,6 +164,15 @@ line-height: 53px;
 
 color: #563300;
 
+}
+
+.lorem a{
+    color:#000;
+}
+
+.lorem:hover{
+    background-color:rgba(0, 56, 255, 0.55);
+    border-color:rgba(0, 56, 255, 0.55);
 }
 
 .btncont{

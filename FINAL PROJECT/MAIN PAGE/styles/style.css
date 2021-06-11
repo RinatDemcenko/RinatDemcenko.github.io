@@ -5,7 +5,15 @@
     margin: 0px;
 }
 
-
+a{
+    text-decoration: none;
+    color: rgba(0, 56, 255, 0.65);
+    
+}
+a:hover {
+     text-decoration: none;
+     color: #7FFF00;
+     }
 
 header {
     background: #C8DCFF;
@@ -301,4 +309,13 @@ padding-left: 20px;
     line-height: 36px;
 
     color: #FFFFFF;
+}
+
+.save:hover{
+    background-color: #7FFF00;
+    border-color: #7FFF00;
+}
+.create:hover{
+    background-color: #7FFF00;
+    border-color: #7FFF00;
 }
