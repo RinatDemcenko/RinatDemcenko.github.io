@@ -45,8 +45,6 @@ a:hover {
     font-weight: normal;
     font-size: 36px;
     line-height: 53px;
-
-    color: rgba(0, 56, 255, 0.65);
 }
 
 .menu-container {
@@ -207,6 +205,10 @@ color: rgba(0, 56, 255, 0.65);
 
   .third{
     background-image: url(../images/dota.svg);
+  }
+  
+  .two{
+    background-image: url(../images/o2.png);
   }
 
   .positioning{
@@ -419,3 +421,7 @@ a:hover {
      text-decoration: none;
      color: #7FFF00;
      }
+
+     .social-punct{
+        margin-right: 20px;
+            }

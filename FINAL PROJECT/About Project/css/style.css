@@ -365,3 +365,7 @@ color: #000000;
         display: flex;
         justify-content: space-around;
     }
+
+    .social-punct{
+margin-right: 20px;
+    }
