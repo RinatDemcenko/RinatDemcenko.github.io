@@ -38,7 +38,7 @@ header {
     padding-right: 8vw;
     display: flex;
     align-items: center;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'M PLUS Rounded 1c', cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -110,7 +110,7 @@ main {
 
 .heading {
     margin-top: 30px;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'M PLUS Rounded 1c', cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
@@ -318,4 +318,13 @@ padding-left: 20px;
 .create:hover{
     background-color: #7FFF00;
     border-color: #7FFF00;
+}
+.yellowbg{
+    background-color: #fffb94; 
+
+}
+
+.greenbg{
+    background-color: #bdff94; 
+
 }

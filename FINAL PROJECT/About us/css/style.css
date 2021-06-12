@@ -40,7 +40,7 @@ a:hover {
     
     display: flex;
     align-items: center;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'M PLUS Rounded 1c', cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -57,7 +57,7 @@ a:hover {
 
 .activeitem {
     padding-left: 8vw;
-    margin-top: 53px;
+    margin-top: 43px;
     display: flex;
     align-items: center;
     font-family: 'M PLUS Rounded 1c', sans-serif;

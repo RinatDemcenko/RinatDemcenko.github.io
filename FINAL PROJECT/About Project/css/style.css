@@ -40,7 +40,7 @@ header {
     
     display: flex;
     align-items: center;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'M PLUS Rounded 1c', cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -156,7 +156,7 @@ background: rgba(255, 153, 0, 0.81);
 border-radius: 35px;
 border-color: rgba(255, 153, 0, 0.81);
 
-font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'M PLUS Rounded 1c', cursive;
 font-style: normal;
 font-weight: 500;
 font-size: 36px;
