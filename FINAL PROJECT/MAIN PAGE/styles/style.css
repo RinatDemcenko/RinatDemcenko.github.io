@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
 
+
 * {
-    overflow-x: hidden;
     padding: 0px;
     margin: 0px;
 }
@@ -9,31 +10,109 @@
 a{
     text-decoration: none;
     color: rgba(0, 56, 255, 0.65);
-    
+    transition: all 0.5s;
+
 }
 a:hover {
      text-decoration: none;
      color: #7FFF00;
+     transition: all 0.5s;
+
      }
 
-header {
-    
-    background: #C8DCFF;
-    height: 10%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+.icons a {
+    text-decoration: none;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30%;
+    color: black;
 }
 
-.logo {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    ;
+.icons a:hover {
+    text-decoration: none;
+   color: rgb(255, 153, 0);
+   text-decoration: orangered underline;
+   transition: all 0.5s;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    padding-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #C8DCFF;
+}
+
+.headerbox {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+}
+
+.logo-and-help {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.item {
+    padding-right: 8vw;
+    display: flex;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
-    line-height: 71px;
+    font-size: 36px;
+    line-height: 53px;
 
-    color: #000000;
+    color: rgb(0, 56, 255);
+}
+
+.tuto {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.tutop {
+    display: none;
+    justify-content: center;
+    text-align: center;
+    width: 289px;
+}
+
+.tutoli {
+    height: 1px;
+}
+
+.tutoli:hover {
+    cursor: help ; 
+}                                      
+
+.tutoli:hover .tutop {
+    background-color: #D4E4FF;
+    position: absolute;
+    display: flex;
+    border: 10px solid #9ec3d9;
+    transition: all 1s;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .item {
@@ -49,43 +128,150 @@ header {
     color: rgba(0, 56, 255, 0.65);
 }
 
-.menu-container {
-    padding-right: 2%;
+.icon-theme {
+    width: 75px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../images/theme.png");
+    margin-bottom: 5px;
+}
+
+.icon-theme:hover {
+    background-image: url("../images/theme-hover.png");
+    transition: all 0.5s;
+}
+
+.icon-lanq {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../images/ru.png");
+    margin-bottom: 5px;
+}
+
+.icon-lanq:hover {
+    background-image: url("../images/ru-hover.png");
+    transition: all 0.5s;
+}
+
+.icon-lanq ul {
+    opacity: 0;
+}
+
+.icon-lanq ul button {
+        width: 40px;
+        margin-top: 5px;
+        background-color: #000;
+        color: white;
+        font-family:'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+}
+
+.icon-lanq:hover ul {
+    opacity: 1;
+    position: absolute;
+    top: 65px;
+    right: 70px;
+    background-color: #ff9700;
+    border-radius: 7px;
+    transition: all 0.5s;
+    text-align: center;
+    padding: 10px;
+}
+
+.icon-theme{
+    position: relative;
+}
+
+.icon-theme:hover {
+    background-image: url("../images/theme-hover.png");
+    transition: all 0.5s;
+}
+
+.icon-theme ul {
+    opacity: 0;
+}
+
+.icon-theme:hover ul {
+    opacity: 1;
+    position: absolute;
+    top: 70px;
+    right: 7px;
+    background-color: #ff9700;
+    border-radius: 7px;
+    transition: all 0.5s;
+    text-align: center;
+    padding: 3px;
+}
+
+
+.icon-theme ul button {
+    width: 55px;
+    margin-top: 5px;
+    background-color: #000;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h3 {
     display: flex;
-    justify-content: space-around;
+    align-self: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h4 {
+    font-family: 'Bebas Neue',
+    sans-serif;
 
 }
 
-.logo-container {
-    padding-left: 10%;
+li {
+    list-style: none;
 }
 
 footer {
-    overflow-x: hidden;
     background: #C8DCFF;
     height: 10%;
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    padding-left: 10%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 main {
+    padding-top: 80px;
     background: #fff;
     width: 100%;
-
 }
 
 .taskcontainer {
     display: block;
-
-
     background: #D5E4FF;
     border-radius: 25px;
     min-width: 350px;
     max-width: 350px;
     min-height: 804px;
     height: 100%;
+}
+
+.yellowbg{
+    background-color: #fffb94; 
+
+}
+
+.greenbg{
+    background-color: #bdff94; 
+
 }
 
 .tasks {
@@ -99,21 +285,49 @@ main {
     display: inline-block;
     position: relative;
     list-style: none;
-    word-wrap: break-word;
     width: 300px;
     min-height: 116px;
     height: 100%;
-
     background: #FFFFFF;
-    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
+    border: 3px solid rgb(102, 102, 102);
 
+    border-radius: 20px;
     margin: 14px 7%;
+    cursor: move;
+}
+.box {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+}
+
+.js-form {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.priorityh4 {
+    margin-top: 20px;
+    display: flex;
+    align-self: center;
+    text-align: center;
+        font-family: 'Bebas Neue',
+        sans-serif;
+}
+
+.task:hover {
+        box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.1);
 }
 
 .heading {
     margin-top: 30px;
-    font-family: 'M PLUS Rounded 1c', cursive;
+       font-family: 'Bebas Neue',
+       sans-serif;
+
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
@@ -125,12 +339,13 @@ main {
 }
 
 .tasks h5 {
-    width: 75%;
-  display: flex;
-  justify-content: flex-start;
-  padding-top: 15px;
-  padding-left: 20px;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 15px;
+    padding-left: 20px;
+        font-family: 'Bebas Neue',
+        sans-serif;
+
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -141,10 +356,12 @@ main {
 }
 
 .tasks p {
-   
+
     padding-top: 11px;
     padding-left: 20px;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+       font-family: 'Bebas Neue',
+       sans-serif;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -156,46 +373,23 @@ main {
 .tasklist {
     padding: 5px;
 }
-
-.tasks .arrow {
-    position: absolute;
-    right: 18px;
-    bottom: 0px;
-    display: none;
-    cursor: pointer;
-}
-
-.tasks .leftarrow {
-    position: absolute;
-    left: 18px;
-    bottom: 0px;
-    display: none;
-    cursor: pointer;
-}
-
 .tasks .cross {
-    position: absolute;
-    right: 15px;
-    top: 10px;
-    display: none;
-    cursor: pointer;
-}
-
-.task:hover .arrow {
-    display: inline;
-}
-
-.task:hover .leftarrow {
-    display: inline;
+   position: absolute;
+   right: 15px;
+   top: 10px;
+   display: none;
+   cursor: pointer;
 }
 
 .task:hover .cross {
-    display: inline;
+    display: flex;
+    align-self: flex-end;
+
 }
 
 
-.tasks .cross:hover {
-    color: skyblue;
+.cross:hover {
+    color: red;
 }
 
 .tasks .create {
@@ -203,17 +397,19 @@ main {
     height: 57px;
 
     border-radius: 35px;
-    border-color:rgba(0, 56, 255, 0.7) ;
-    background-color: rgba(0, 56, 255);
+    border: 1px solid #0839E9B2;
+    background-color: rgba(0, 56, 255, 0.7);
 
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+       font-family: 'Bebas Neue',
+       sans-serif;
+
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 36px;
 
     color: #FFFFFF;
-    
+
 }
 
 .butcont {
@@ -222,65 +418,67 @@ main {
     justify-content: center;
 }
 
-.radiobuttons{
+.radiobuttons {
     padding-top: 20px;
     display: flex;
     justify-content: space-around;
 }
 
 
-.radioButton{
+.radioButton {
     height: 18px;
     width: 18px;
     background: #D4E4FF;
 }
 
 .radioButton:active {
-    background: #7595FF;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15);
-  }
+}
 
-  .mark{
-      padding-left: 12px;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+.mark {
+    padding-left: 12px;
+        font-family: 'Bebas Neue',
+        sans-serif;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
-    
+
     color: #000000;
-  }
-
-  /* классы для js механизмов */
- 
-
-
-
-.activetask{
-    height: 180px;
 }
+
+/* классы для js механизмов */
+
+
+
 
 /* продолжение обычных классов */
 
 
-.created{
+.created {
+    cursor: default;
+    border:0px;
     display: none;
     width: 300px;
-    height: 240px;
+    height: 300px;
 }
 
-.inputik{
+.inputik {
     margin-top: 18px;
     margin-left: 22px;
+    padding-left: 5px;
     width: 251px;
     height: 38px;
-    
+
     background: #D4E4FF;
     box-shadow: 0px 0px 5px 1px rgba(212, 228, 255, 1);
     border-color: #D4E4FF;
-    border-radius: 10px; 
+    border-radius: 10px;
 
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: 'Bebas Neue',
+        sans-serif;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -289,27 +487,25 @@ main {
     color: #000000;
 }
 
-.inputik::placeholder{
-padding-left: 20px;
-}
 
-.inputik::placeholder{
-    padding-left: 20px;
-    }
 
-.save{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow-y: hidden;
+.save {
+
     width: 200px;
     height: 45px;
 
     border-radius: 35px;
-    border-color:rgba(0, 56, 255, 0.7) ;
-    background-color: rgba(0, 56, 255);
-    padding-bottom: 8px; 
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    border: 1px solid #0839E9B2;
+    background: #0839E9B2;
+    ;
+
+    padding-bottom: 8px;
+      font-family:'Segoe UI',
+      Tahoma,
+      Geneva,
+      Verdana,
+      sans-serif;
+
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -318,20 +514,136 @@ padding-left: 20px;
     color: #FFFFFF;
 }
 
-.save:hover{
-    background-color: #7FFF00;
-    border-color: #7FFF00;
+.save:hover {
+        background-color: #ff9d00;
+
+        color: black;
+    transition: all 0.5s;
 }
-.create:hover{
-    background-color: #7FFF00;
-    border-color: #7FFF00;
+
+.create:hover {
+    background-color: #ff9d00;
+    color: black;
+    transition: all 0.5s;
 }
-.yellowbg{
-    background-color: #fffb94; 
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
 
 }
 
-.greenbg{
-    background-color: #bdff94; 
+.footer-container {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-self: center;
+}
 
+.about-proj {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.line {
+    background-color: #000;
+    width: 85%;
+    height: 1px;
+    display: flex;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.social-1 {
+    width: 32px;
+    height: 32px;
+    background-image: url("../images/instagram.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social-1:hover {
+    background-image: url("../images/instagram-hover.svg");
+    transition: all 0.5s;
+}
+
+.social-2 {
+    width: 32px;
+    height: 32px;
+    background-image: url("../images/telegram.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social-2:hover {
+    background-image: url("../images/telegram-hover.svg");
+    transition: all 0.5s;
+}
+
+
+.social-3 {
+    width: 32px;
+    height: 32px;
+    background-image: url("../images/facebook.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social-3:hover {
+    background-image: url("../images/facebook-hover.svg");
+    transition: all 0.5s;
+}
+
+
+.social-4 {
+    width: 32px;
+    height: 32px;
+    background-image: url("../images/twitter.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social-4:hover {
+    background-image: url("../images/twitter-hover.svg");
+    transition: all 0.5s;
+}
+
+.social-info {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.social-title{
+    margin-bottom: 10px;
+}
+
+.socials {
+    display: flex;
+    width: 35%;
+    align-self: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }

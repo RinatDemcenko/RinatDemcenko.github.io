@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
+a{
+    text-decoration: none;
+    color: rgba(0, 56, 255, 0.65);
+    
+}
+a:hover {
+     text-decoration: none;
+     color: #7FFF00;
+     }
+
+header {
+    
+    background: #C8DCFF;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    margin-top: 53px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+
+    color: #000000;
+}
+
+.item {
+    margin-top: 53px;
+    
+    display: flex;
+    align-items: center;
+    font-family: 'M PLUS Rounded 1c', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: rgba(0, 56, 255, 0.65);
+}
+
+.menu-container {
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+
+}
+
+.activeitem {
+    padding-right: 8vw;
+    margin-top: 53px;
+    display: flex;
+    align-items: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 53px;
+    
+    color: rgba(0, 56, 255, 0.65);
+    
+    
+}
+
+.navigation{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    width: 100%;
+    height: 440px;
+    background:  linear-gradient(359.14deg, rgba(200, 220, 255, 0.508571) 45.71%, rgba(200, 220, 255, 0) 94.19%);
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo2{
+    margin-top: 110px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+
+    color: #000000;
+}
+
+.social{
+    margin-top: 80px;
+}
+.nodots{
+    list-style: none;
+}
+
+.justtext{
+    margin-left: 45px;
+    float: right;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 45px;
+
+color: #000000;
+}
+
+.social_punkt{
+    margin-right: 24px;
+}
+
+.contact{
+    margin-top: 45px;
+}
+
+.gradientcont{
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1024px;
+    background:linear-gradient(179.69deg, #C8DCFF 56.74%, rgba(200, 220, 255, 0.508571) 77.46%, rgba(200, 220, 255, 0.04) 99.74%);
+}
+
+.main_heading{
+    
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+line-height: 143px;
+
+color: #000000;
+}
+
+.lorem{
+    width: 426px;
+height: 81px;
+
+background: rgba(255, 153, 0, 0.81);
+border-radius: 35px;
+border-color: rgba(255, 153, 0, 0.81);
+
+font-family: 'M PLUS Rounded 1c', cursive;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+
+color: #563300;
+
+}
+
+.lorem a{
+    color:#000;
+}
+
+.lorem:hover{
+    background-color:rgba(0, 56, 255, 0.55);
+    border-color:rgba(0, 56, 255, 0.55);
+}
+
+.btncont{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.step{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 4px solid #5ACD47;
+    box-sizing: border-box;
+    border-radius: 50%;
+
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: rgba(0, 56, 255, 0.65);
+}
+
+.line{
+margin-top: 25px;
+    width: 75.01px;
+    height: 0px;
+    border: 2px solid #5ACD47;
+    display: inline-block;
+}
+
+.steps{
+    display: flex;
+    justify-content: center;
+}
+
+.group{
+    display: block;
+}
+
+.social2{
+    list-style: none;
+    position: absolute;
+    left: 29px;
+    bottom: 246px;
+}
+
+.social_icon{
+    margin-top: 25px;
+}
+
+.number{
+    margin-left: 2.2vw;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 87px;
+    
+    color: rgba(0, 56, 255, 0.65);
+    
+    }
+    
+    
+    .bg-line {
+        width: 149px;
+        height: 0px;
+        background-color: #000;
+        border:2px solid #5ACD47;
+      }
+
+      .numbercontainer{
+       margin-bottom: 45px;
+    }
+    
+
+    .heading{
+        font-family: 'M PLUS Rounded 1c', cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 95px;
+    
+    
+    color: #000000;
+    
+    }
+    
+    .desc{
+        width: 222px;
+        margin-left: 50px;
+        float: right;
+        font-family: 'M PLUS Rounded 1c', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        
+    color: #000000;
+    }
+
+    .firstpart{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 150px;
+    }
+    
+
+    .imganddesc{
+        display: flex;
+        align-items: center;
+    }
+
+    .twopart{
+        margin-top: 180px;
+        width: 100%;
+        height: 916px;
+        background-image: url(../images/work.svg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .heading3{
+        font-family: 'M PLUS Rounded 1c', cursive;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 59px;
+
+color: #000000;
+    }
+
+    .cards{
+        width:66%;
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .checkmark{
+        float: left;
+    }
+
+    .desc2{
+        float: right;
+        width: 261px;
+        margin-left: 50px;
+        float: right;
+        font-family: 'M PLUS Rounded 1c', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        
+    color: #000000;
+    }
+
+    .card{
+        margin-bottom: 70px;
+        margin-left: 69px;
+    }
+
+    .heading2{
+        margin-bottom: 65px;
+        text-align: center;
+        font-family: 'M PLUS Rounded 1c', cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 95px;
+    
+    
+    color: #000000;
+    
+    }
+
+    .void{
+        width: 11%;
+        height:15%;
+    }
+
+    .positioning3{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .social-punct{
+margin-right: 20px;
+    }

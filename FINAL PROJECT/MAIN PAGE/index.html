@@ -11,12 +11,46 @@
 
 <body>
     <header>
-        <div class="logo-container">
-            <h1 class="logo">RIN TASKS</h1>
-        </div>
-        <div class="menu-container">
+        <div class="headerbox">
+            <div class="logo-and-help">
+                <div class="logo-container">
+                    <img src="./images/logo.png" alt="logotype" width="69" height="90">
+                </div>
+                <ul class="tuto">
+                    <li class="tutoli">Как пользоваться Epayo?
+                        <ul>
+                            <li class='tutop'>
+
+                                Нажмите на кнопку "+", что бы вызвать меню создания задания. Введите его название, по
+                                желанию описание и приоритет. Что бы удалить ненужное задание, нажмите на хрестик. Что
+                                бы перетянуть задание, зажмите и тяните его курсором к нужной колонке.
+                                С уважением, Epayo Team.
+
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-container">
             <h2 class="item"> <a href="https://RinatDemcenko.github.io/FINAL PROJECT/About Project/">О нашем проекте</a> </h2>
             <h2 class="item"><a href="https://RinatDemcenko.github.io/FINAL PROJECT/About us/">О нас</a></h2>
+        </div>
+            <div class="icons">
+                <div class="icon-lanq">
+                    <ul class="icon">
+                        <li><button>RU</button></li>
+                        <li><button>UK</button></li>
+                        <li><button>ENG</button></li>
+                        <li><button>DE</button></li>
+                    </ul>
+                </div>
+                <div class="icon-theme">
+                    <ul class="icon">
+                        <li><button>Светлая</button></li>
+                        <li><button>Темная</button></li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
     </header>
@@ -27,54 +61,61 @@
                 <div class="taskslist">
                     <ul class="to-do">
                         <li class="task">
-                          <h5>Выучить JS</h5>
-                          <p>Освоить весь функционал JAVASCRIPT</p>
-                          <svg xmlns="http://www.w3.org/2000/svg" class = "cross" width = "34" height = "34" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                          </svg>  
-                        </li>
-                        <li class="task">
-                            <h5>Выгулять собаку</h5>
-                            <p>пойти с рексом во двор в 19:00</p>
+                            <h5>Выучить JS</h5>
+                            <p>Освоить весь функционал JAVASCRIPT</p>
                             <svg xmlns="http://www.w3.org/2000/svg" class = "cross" width = "34" height = "34" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                              </svg>
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>  
                           </li>
                           <li class="task">
-                            <h5>Выучить уроки</h5>
-                            <p>Выучить алгебру, геометрию, русский и украинский</p>
-                            <svg xmlns="http://www.w3.org/2000/svg" class = "cross" width = "34" height = "34" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                              </svg>  
-                          </li>
+                              <h5>Выгулять собаку</h5>
+                              <p>пойти с рексом во двор в 19:00</p>
+                              <svg xmlns="http://www.w3.org/2000/svg" class = "cross" width = "34" height = "34" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </li>
+                            <li class="task">
+                              <h5>Выучить уроки</h5>
+                              <p>Выучить алгебру, геометрию, русский и украинский</p>
+                              <svg xmlns="http://www.w3.org/2000/svg" class = "cross" width = "34" height = "34" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                                </svg>  
+                            </li>
                     </ul>
+                    
+
                     <li class="created task js-todo-editor">
-                        <form class = "js-form">
-                        <input type="text" class="inputik" name="nameinput" placeholder="Имя">
-                        <input type="text" class="inputik" name="descinput" placeholder="Описание">
-                        <div class="radiobuttons">
-                            <div class="radiobut">
-                                <input type="radio" class="radioButton" name = "priority" value="L" id="L"><b class="mark">L</b>
+                        <form class="js-form">
+                            <input type="text" class="inputik" name="nameinput" placeholder="Имя" maxlength="20"
+                                required>
+                            <input type="text" class="inputik" name="descinput" placeholder="Описание" maxlength="30">
+                            <h4 class='priorityh4'>Приоритет</h4>
+                            <div class="radiobuttons">
+                                <div class="radiobut">
+                                    <input type="radio" class="radioButton" name="priority" value="L" id="L"><b
+                                        class="mark">Низк.</b>
+                                </div>
+                                <div class="radiobut">
+                                    <input type="radio" class="radioButton" name="priority" value="M" id="M"><b
+                                        class="mark">Средн.</b>
+                                </div>
+                                <div class="radiobut">
+                                    <input type="radio" class="radioButton" name="priority" value="H" id="H"><b
+                                        class="mark">Выс.</b>
+                                </div>
                             </div>
-                            <div class="radiobut">
-                                <input type="radio" class="radioButton" name = "priority" value="M" id="M"><b class="mark">M</b>
+                            <div class="butcont">
+                                <button type="submit" class="save">Сохранить</button>
                             </div>
-                            <div class="radiobut">
-                                <input type="radio" class="radioButton" name = "priority" value="H" id="H"><b class="mark">H</b>
-                            </div>
-                        </div>
-                        <div class="butcont">
-                        <button type="submit" class="save">Сохранить</button>
-                    </div>
-                </form>
+                        </form>
                     </li>
                     <div class="butcont">
-                        <button class="create">Новое задание</button>
+                        <button class="create">+</button>
                     </div>
                 </div>
             </div>
             <div class="taskcontainer yellowbg">
-                <div class="heading">В прогрессе</div>
+                <div class="heading">В процессе</div>
                 <div class="taskslist">
                     <ul class="in-progress">
                         <li class="task">
@@ -130,15 +171,30 @@
                 </div>
             </div>
         </section>
-       
+
     </main>
     <footer>
-        <div class="social">
-            <a href="https://www.instagram.com/"><img src="images/insta.svg" alt="ссылка на инсту"></a>
-            <a href="https://twitter.com/i/flow/signup?lang=uk"><img src="images/twitter.svg" alt="ссылка на твиттер"></a>
-            <a href="https://web.telegram.org/"><img src="images/telegramm.svg" alt="ссылка на телегу"></a>
+        <div class="info">
+        <div class="title">
+            <h1>Свяжитесь с нами</h1>
+            <p>Наша почта: rinatdemcenko@gmail.com</p>
+            <p>Наш телефон: +380(636918815), Украина, Киев</p>
         </div>
-    
+
+        <div class="line"></div>
+        <div class="social-info">
+            <div class="social-title">
+                Наши соцсети
+            </div>
+            <div class="socials">
+            <a href=""><div class="social-1"></div></a>
+            <a href=""><div class="social-2"></div></a>
+            <a href=""><div class="social-3"></div></a>
+            <a href=""><div class="social-4"></div></a>
+        
+            </div>
+        </div>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
     <script src="JS FUNCTIONS/main.js"></script>

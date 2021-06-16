@@ -75,13 +75,13 @@ function createCardFunc(name,desc,prior){
   task.innerHTML = `<h5>${name}</h5> <p>${desc}</p> ${crossimg}`
   
   if(prior === "H"){
-    task.style.background = "#ffabab";
+    task.style.border = "3px solid #ff3300";
   }
   else if(prior === "M"){
-    task.style.background = "#f8ffa6";
+    task.style.border = "3px solid #ffd770";
   }
   else{
-    task.style.background = "white";
+    task.style.border = "3px solid #666666";
   }
   
   to_do.append(task);
