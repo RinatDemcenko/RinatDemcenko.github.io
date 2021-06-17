@@ -6,24 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles/style.css" id = "theme">
+    <link rel="stylesheet" href="styles/style.css" id = "theme">
 </head>
 
 <body>
-    <header>
+    <header class = "headertheme">
         <div class="headerbox">
             <div class="logo-and-help">
                 <div class="logo-container">
-                    <img src="./images/logo.png" alt="logotype" width="69" height="90">
+                    <img src="./images/logo.png" alt="logotype" width="69" height="90" class = "logo">
                 </div>
                 <ul class="tuto">
-                    <li class="tutoli">Как пользоваться Rin Tasks?
+                    <li class="tutoli">Как пользоваться My Tasks?
                         <ul>
                             <li class='tutop'>
 
-                                Нажмите на кнопку "+", что бы вызвать меню создания задания. Введите его название, по
-                                желанию описание и приоритет. Что бы удалить ненужное задание, нажмите на хрестик. Что
-                                бы перетянуть задание, зажмите и тяните его курсором к нужной колонке.
+                                Нажмите на кнопку "+", чтобы вызвать меню создания задания. Введите его название, по
+                                желанию описание и приоритет. Что бы удалить ненужное задание, нажмите на хрестик. Чтобы перетянуть задание, зажмите и тяните его курсором к нужной колонке.
                                 С уважением, Комманда GOT IT.
 
                             </li>
@@ -32,28 +31,22 @@
                 </ul>
             </div>
             <div class="menu-container">
-            <h2 class="item"> <a href="https://RinatDemcenko.github.io/FINAL PROJECT/About Project/">О нашем проекте</a> </h2>
-            <h2 class="item"><a href="https://RinatDemcenko.github.io/FINAL PROJECT/About us/">О нас</a></h2>
+                <a href="https://RinatDemcenko.github.io/FINAL PROJECT/About Project/"><h2 class="item "> О проекте </h2></a>
+                <a href="https://RinatDemcenko.github.io/FINAL PROJECT/About us/"> <h2 class="item item2">О нас</h2></a>
         </div>
             <div class="icons">
-                <div class="icon-lanq">
-                    <ul class="icon">
-                        <li><button>RU</button></li>
-                        <li><button>UK</button></li>
-                        <li><button>ENG</button></li>
-                        <li><button>DE</button></li>
-                    </ul>
-                </div>
+                
                 <div class="icon-theme">
                     <ul class="icon">
-                        <li><button id="switchMode">Сменить тему сайта</button></li>
+                        <li><button class="light">Светлая</button></li>
+                        <li><button class="dark ">Темная</button></li>
                     </ul>
                 </div>
             </div>
         </div>
 
     </header>
-    <main>
+    <main class="theme">
         <section class="tasks">
             <div class="taskcontainer red">
                 <div class="heading">Сделать</div>
@@ -172,12 +165,12 @@
         </section>
 
     </main>
-    <footer>
+    <footer class = "footertheme">
         <div class="info">
         <div class="title">
             <h1>Свяжитесь с нами</h1>
-            <p>Наша почта: rinatdemcenko@gmail.com</p>
-            <p>Наш телефон: +380(636918815), Украина, Киев</p>
+            <p>почта: rinatdemcenko@gmail.com</p>
+            <p>телефон: +380(636918815), Украина, Киев</p>
         </div>
 
         <div class="line"></div>
