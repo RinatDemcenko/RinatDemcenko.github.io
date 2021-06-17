@@ -1,3 +1,30 @@
+let btntheme = document.getElementById("switchMode");
+let linktheme = document.getElementById("theme");
+
+btntheme.addEventListener("click", function () { ChangeTheme(); });
+
+function ChangeTheme()
+{
+    let lightTheme = "styles/styles.css";
+    let darkTheme = "styles/dark-mode.css";
+
+    let currTheme = linktheme.getAttribute("href");
+    let theme = "";
+
+    if(currTheme == lightTheme)
+    {
+   	 currTheme = darkTheme;
+   	 theme = "dark";
+    }
+    else
+    {    
+   	 currTheme = lightTheme;
+   	 theme = "light";
+    }
+
+    linktheme.setAttribute("href", currTheme);
+}
+
 let to_do = document.querySelector(".to-do");
 let in_progress = document.querySelector(".in-progress");
 let Done = document.querySelector(".Done");

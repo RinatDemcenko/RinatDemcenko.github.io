@@ -6,7 +6,9 @@
     padding: 0px;
     margin: 0px;
 }
-
+html {
+    background: black;
+}
 a{
     text-decoration: none;
     color: rgba(0, 56, 255, 0.65);
@@ -202,7 +204,7 @@ header {
     opacity: 1;
     position: absolute;
     top: 70px;
-    left: -20px;
+    right: 7px;
     background-color: #ff9700;
     border-radius: 7px;
     transition: all 0.5s;
@@ -212,7 +214,7 @@ header {
 
 
 .icon-theme ul button {
-    width: 105px;
+    width: 55px;
     margin-top: 5px;
     background-color: #000;
     color: white;
