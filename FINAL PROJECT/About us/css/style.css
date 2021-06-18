@@ -182,10 +182,27 @@ color: rgba(0, 56, 255, 0.65);
     color: #000000;
   }
 
+.descfirstcont{
+    display: flex;
+    justify-content: center;
+}
+
+.descfist{
+    margin-top: 55px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 26px;
+line-height: 39px;
+text-align: center;
+margin-bottom: 20px;
+
+color: #000000;
+max-width: 601px; ;
+}
   .headingcont{
       display: flex;
       justify-content: center;
-      margin-bottom: 67px;
   }
 
   .columnscont{
@@ -203,15 +220,15 @@ color: rgba(0, 56, 255, 0.65);
   }
 
   .first{
-      background-image: url(../images/csgo.svg);
+      background-image: url(../images/emil.jpg);
   }
 
   .third{
-    background-image: url(../images/dota.svg);
+    background-image: url(../images/rusus.jpg);
   }
   
   .two{
-    background-image: url(../images/o2.png);
+    background-image: url(../images/rinat.jpg);
   }
 
   .positioning{
@@ -232,7 +249,8 @@ color: #000000;
   }
 
   .carddesccont{
-      width: 80%;
+text-align: center;
+width: 80%;
   }
 
  .numbercontainer{
@@ -251,7 +269,6 @@ text-align: center;
 color: #000000;
 
      margin-top: 4.5vw;
-     text-align: center;
  }
 
  .carddesccentral{
