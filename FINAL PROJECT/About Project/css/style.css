@@ -201,7 +201,14 @@ color: #563300;
     line-height: 45px;
     color: rgba(0, 56, 255, 0.65);
 }
+.imganddesc img{
+    width: 435px;
+height: 543px;
+}
 
+.img6cont{
+    position: relative;
+}
 .line{
 margin-top: 25px;
     width: 75.01px;
@@ -209,6 +216,16 @@ margin-top: 25px;
     border: 2px solid #5ACD47;
     display: inline-block;
 }
+
+.border{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+        width: 435px;
+    height: 543px;
+        border: 6px solid #FF9900;
+        box-sizing: border-box;
+    }
 
 .steps{
     display: flex;

@@ -218,7 +218,24 @@ max-width: 601px; ;
     background: rgba(200, 220, 255, 0.5);
     border-radius: 23px;
   }
+  
+  .img6cont{
+      position: relative;
+  }
 
+.border{
+position: absolute;
+top: 40px;
+right: 30px;
+    width: 492px;
+height: 624px;
+    border: 6px solid #FF9900;
+    box-sizing: border-box;
+}
+  .wibreg{
+    width: 483px;
+    height: 640px;
+  }
   .first{
       background-image: url(../images/emil.jpg);
   }
