@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Source+Sans+Pro&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    width: 100%;
+    height: 130px;
+    background-color:#fae100;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.name-test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 360px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url(../images/name-test.svg);
+}
+
+.icon{
+    margin-right: 29px;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color:#fae100;
+
+}
+
+.cards {
+    margin-bottom: 50px;
+    list-style: none;
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card {
+    padding-left: 25px;
+    margin-top: 100px;
+    border-radius: 5px;
+    width: 500px;
+    height: 264px;
+    
+    background: #000000;
+}
+
+.test{
+    font-family: 'Oswald', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 68px;
+line-height: 85px;
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.yellow{
+    color:#fae100;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.number{
+    font-family: 'Oswald', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 85px;
+display: flex;
+
+color: #FFFFFF;
+}
+
+.question{
+    margin-top: -30px;
+    font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 85px;
+
+color: #FFFFFF;
+}
+
+.answers{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.answer{
+    cursor: pointer;
+    padding-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 85px;
+/* or 340% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+    margin-bottom: 20px;
+    width: 174px;
+    height: 30px;
+    
+    background: #FAE100;
+    border-radius: 30px;
+    border: 4px solid #FAE100;
+}
+
+
+
+.result{
+    display: none;
+    padding-top: 30px;
+    padding-left: 25px;
+    width: 500px;
+height: 390px;
+margin-bottom: 145px;
+margin-top: 145px;
+
+background: #000000;
+}
+
+.resulttitle{
+    font-family: 'Oswald', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 85px;
+/* or 340% */
+
+color: #FFFFFF;
+}
+
+.resultdesc{
+    width: 403px;
+    height: 203.22px;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 37px;
+    
+    color: #FFFFFF;
+
+}
