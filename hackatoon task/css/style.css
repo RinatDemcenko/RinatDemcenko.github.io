@@ -8,6 +8,7 @@
 
 a{
     text-decoration: none;
+    color:#000000;
 }
 
 .nav{
@@ -193,6 +194,7 @@ color: #FAE100;
 }
 
 .icon{
+    cursor: pointer;
     margin-right: 29px;
 }
 
