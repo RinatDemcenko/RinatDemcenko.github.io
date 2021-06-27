@@ -170,6 +170,43 @@ color: #FFFFFF;
 
 }
 
+/* #question2{
+    display: none;
+}
+
+#question3{
+    display: none;
+}
+
+#question4{
+    display: none;
+}
+
+#question5{
+    display: none;
+}
+
+#question6{
+    display: none;
+}
+
+#question7{
+    display: none;
+}
+
+#question8{
+    display: none;
+}
+
+#question9{
+    display: none;
+}
+
+#question10{
+    display: none;
+} */
+
+
 @media only screen and (max-width: 767px) {
 
     .social{
@@ -205,7 +242,7 @@ flex-wrap: wrap;
         font-family: 'Oswald', sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 48px;
+font-size: 38px;
 line-height: 85px;
     }
     }
@@ -215,7 +252,7 @@ line-height: 85px;
         .card{
             margin-right: 0px;
             margin-left: 0px;
-            height: 400px;
+            height: 450px;
             width: 90%;
         }
           

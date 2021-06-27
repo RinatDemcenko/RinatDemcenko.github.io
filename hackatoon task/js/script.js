@@ -33,32 +33,32 @@ else{
 
 }
 // Это должен быт быть счётчик заданий
-// if (card1.getAttribute("id") === "question1"){
+// if (card1.getAttribute("id") === "question1" && card2.style.display === "none"){
 //     card2.style.display = "block"
 //     console.log("lol")
 // }
-// else if (card2.getAttribute("id") === "question2"){
+// else if (card1.getAttribute("id") === "question1" && card2.getAttribute("id") === "question2" && card3.style.display === "none"){
 //     card3.style.display = "block"
 // }
-// else if(card3.getAttribute("id") === "question3"){
+// else if( card1.getAttribute("id") === "question1" && card2.getAttribute("id") === "question2" && card3.getAttribute("id") === "question3" && card4.style.display === "none"){
 //     card4.style.display = "block"
 // }
-// else if(card4.getAttribute("id") === "question4"){
+// else if(card1.getAttribute("id") === "question1" && card2.getAttribute("id") === "question2" && card3.getAttribute("id") === "question3" && card4.getAttribute("id") === "question4" && card5.style.display === "none"){
 //     card5.style.display = "block"
 // }
-// else if(card5.getAttribute("id") === "question5"){
+// else if(card1.getAttribute("id") === "question1" && card2.getAttribute("id") === "question2" && card3.getAttribute("id") === "question3" && card4.getAttribute("id") === "question4" && card5.getAttribute("id") === "question5" && card6.style.display === "none"){
 //     card6.style.display = "block"
 // }
-// else if(card6.getAttribute("id") === "question6"){
+// else if(card1.getAttribute("id") === "question1" && card2.getAttribute("id") === "question2" && card3.getAttribute("id") === "question3" && card4.getAttribute("id") === "question4" && card5.getAttribute("id") === "question5"  && card6.getAttribute("id") === "question6" && card7.style.display === "none"){
 //     card7.style.display = "block"
 // }
-// else if(card7.getAttribute("id") === "question7"){
+// else if(card1.getAttribute("id") === "question1" && card2.getAttribute("id") === "question2" && card3.getAttribute("id") === "question3" && card4.getAttribute("id") === "question4" && card5.getAttribute("id") === "question5"  && card6.getAttribute("id") === "question6" && card7.getAttribute("id") === "question7" && card8.style.display === "none"){
 //     card8.style.display = "block"
 // }
-// else if (card8.getAttribute("id") === "question8"){
+// else if (card1.getAttribute("id") === "question1" && card2.getAttribute("id") === "question2" && card3.getAttribute("id") === "question3" && card4.getAttribute("id") === "question4" && card5.getAttribute("id") === "question5"  && card6.getAttribute("id") === "question6" && card7.getAttribute("id") === "question7" && card8.getAttribute("id") === "question8" && card9.style.display === "none"){
 //     card9.style.display = "block"
 // }
-// else if (card9.getAttribute("id") === "question9"){
+// else if (card1.getAttribute("id") === "question1" && card2.getAttribute("id") === "question2" && card3.getAttribute("id") === "question3" && card4.getAttribute("id") === "question4" && card5.getAttribute("id") === "question5"  && card6.getAttribute("id") === "question6" && card7.getAttribute("id") === "question7" && card9.getAttribute("id") === "question9" && card10.style.display === "none"){
 //     card10.style.display = "block"
 // }
 // else{
