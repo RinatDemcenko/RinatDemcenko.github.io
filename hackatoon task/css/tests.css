@@ -169,3 +169,54 @@ color: #FFFFFF;
     color: #FFFFFF;
 
 }
+
+@media only screen and (max-width: 767px) {
+
+    .social{
+        display: flex;
+        justify-content: space-around;
+    }
+    .icon{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    
+    .item{
+        display: none;
+    }
+    
+    footer .logo{
+        display: none;
+    }
+
+    .cards{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+    }
+
+    .nav2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .test{
+        font-family: 'Oswald', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 85px;
+    }
+    }
+      
+
+      @media only screen and (max-width: 568px) {
+        .card{
+            margin-right: 0px;
+            margin-left: 0px;
+            height: 400px;
+            width: 90%;
+        }
+          
+      }
