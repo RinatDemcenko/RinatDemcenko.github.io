@@ -130,7 +130,7 @@ let btn = document.getElementById("myBtn");
 function myFunction() {
   if (video.paused) {
     video.play();
-    btn.innerHTML = "Поставить видео на паузу";
+    btn.innerHTML = "Мешает - поставьте видео на паузу";
   } else {
     video.pause();
     btn.innerHTML = "А ещё поставьте мне доп балл)))";
