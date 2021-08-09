@@ -57,7 +57,9 @@ console.log(calculateTotalBalance(users));
 console.log("--------------------------------------------------------------------------------------------------------------------------8--------------------------------------------------------------------------------------------------------------------------")
 // 8
 const getUsersWithFriend = (users, friendName) => {
-  return users.filter(user => user.friends.includes(friendName));
+  let filtredUsers = users.filter(user => user.friends.includes(friendName));
+  return filtredUsers.map(user => user.name);
+
 };
 
 console.log(getUsersWithFriend(users, 'Briana Decker')); // [ 'Sharlene Bush', 'Sheree Anthony' ]
@@ -65,7 +67,8 @@ console.log(getUsersWithFriend(users, 'Goldie Gentry')); // [ 'Elma Head', 'Sher
 console.log("--------------------------------------------------------------------------------------------------------------------------9--------------------------------------------------------------------------------------------------------------------------")
 // 9
 const getNamesSortedByFriendsCount = users => {
-  return users.sort((a, b) => a.friends.length > b.friends.length ? 1 : -1);
+  let sortedUsers = users.sort((a, b) => a.friends.length > b.friends.length ? 1 : -1);
+  return sortedUsers.map(user => user.name);
 };
 
 console.log(getNamesSortedByFriendsCount(users));
@@ -77,7 +80,7 @@ const getSortedUniqueSkills = users => {
   // пытался сделать сразу сортировку уникальных значений, сперва не вышло, сделал другим способом, но строку 78 решил не менять
   let SkillsArray = users.reduce((unique, {skills}) => unique.includes(...skills) ? unique : [...unique, ...skills], []) 
 let SkillsArrayunique = SkillsArray.filter(function(item, pos) {
-  return SkillsArray.indexOf(item) == pos;
+  return SkillsArray.indexOf(item) === pos;
 })
 return SkillsArrayunique.sort()
 };
