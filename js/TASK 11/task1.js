@@ -7,21 +7,24 @@ const colors = [
     '#795548',
   ];
 let start = document.querySelector(".start")
-let stop = document.querySelector(".stop")
+let STOP = document.querySelector(".stop")
 
   const randomIntegerFromInterval = (min, max) => {
     return Math.floor(Math.random() * (max - min + 1) + min);
   };
 
-  let changer = function(){
-    let timer = setInterval(() => {
-    document.body.style.backgroundColor = (colors[randomIntegerFromInterval(0, 5)])
-  }, 1000);
-}
-
+  let timer = null
 
   let stopFunc = function(){
-    clearInterval(timer)
+    start.removeAttribute("Disabled")
 }
-start.addEventListener("click", changer())
-  stop.addEventListener("click", stopFunc())
+start.addEventListener("click", function(){
+ timer = setInterval(() => {
+    document.body.style.backgroundColor = (colors[randomIntegerFromInterval(0, 5)])
+    start.setAttribute("Disabled", "")
+  }, 1000);
+})
+  STOP.addEventListener("click", function(){
+    clearInterval(timer)
+    start.removeAttribute("Disabled")
+})

@@ -1,33 +1,33 @@
-const time = Date.parse(endtime)
 
-class Timer {
-    constructor({ onTick }) {
-      this.onTick = onTick;
-      this.intervalId = null;
-  
-    }
+class CountdownTimer {
+  constructor({targetDate, selector}) {
+    this.targetDate = targetDate;
+    this.selector = selector;
+    setInterval(
+      this.onTick.bind(this)
+    , 1000)
+  }
+  onTick(){
+    this.time = this.targetDate - new Date()
+    const daysValue = document.querySelector('.days');
+  const hoursValue = document.querySelector('.hours');
+  const minsValue = document.querySelector('.mins');
+  const secsValue = document.querySelector('.secs');
+  const days = Math.floor(this.time / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((this.time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));    
+  const mins = Math.floor((this.time % (1000 * 60 * 60)) / (1000 * 60));
+  const secs = Math.floor((this.time % (1000 * 60)) / 1000);
+  daysValue.textContent = days;
+  hoursValue.textContent = hours;
+  minsValue.textContent = mins;
+  secsValue.textContent = secs;
+  }
+
 }
-/*
- * Дні, що залишилися: ділимо значення UTC на 1000 * 60 * 60 * 24, кількість
- * мілісекунд в один день (мілісекунди * секунди * хвилини * години)
- */
-const days = Math.floor(time / (1000 * 60 * 60 * 24));
 
-/*
- * Решта годин: отримуємо залишок від попереднього розрахунку за допомогою оператора
- * залишку% і ділимо його на кількість мілісекунд в одній годині
- * (1000 * 60 * 60 = мілісекунди * хвилини * секунди)
- */
-const hours = Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-
-/*
- * Решта хвилин: отримуємо хвилини, що залишилися і ділимо їх на кількість
- * мілісекунд в одній хвилині (1000 * 60 = мілісекунди * секунди)
- */
-const mins = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60));
-
-/*
- * Решта секунд: отримуємо секунди, які залишилися і ділимо їх на кількість
- * миллисекунд в одной секунде (1000)
- */
-const secs = Math.floor((time % (1000 * 60)) / 1000);
+const timer = new CountdownTimer({
+  selector: '#timer-1',
+  targetDate: new Date('Jun 17, 2022'),
+})
+  
+  
