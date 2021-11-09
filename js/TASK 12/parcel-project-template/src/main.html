@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/css/main.css">
+</head>
+<body>
+  <div class="form-group">
+    <input class="search" type="text" placeholder="enter your country name">
+</div>
+    <ul class="result"></ul>
+    <script src="../src/index.js"></script>
+    <link href="../node_modules/@pnotify/core/dist/PNotify.css" rel="stylesheet" type="text/css" />
+    <link href="../node_modules/@pnotify/core/dist/BrightTheme.css" rel="stylesheet" type="text/css" />
+<link href="../node_modules/@pnotify/mobile/dist/PNotifyMobile.css" rel="stylesheet" type="text/css" />
+<script type="module">
+  import { alert, defaultModules } from 'node_modules/@pnotify/core/dist/PNotify.js';
+  import * as PNotifyMobile from 'node_modules/@pnotify/mobile/dist/PNotifyMobile.js';
+ 
+  defaultModules.set(PNotifyMobile, {});
+ 
+  alert({
+    text: 'Notice me, senpai!'
+  });
+</script>
+</script> 
+</body>
+</html>

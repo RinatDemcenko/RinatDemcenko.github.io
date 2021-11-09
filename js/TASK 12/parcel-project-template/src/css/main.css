@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Hind+Siliguri&family=PT+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root {
+
+    --input-color: #99A3BA;
+    --input-border: #CDD9ED;
+    --input-background: #fff;
+    --input-placeholder: #CBD1DC;
+
+
+
+}
+
+.search {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    width: 80%;
+    padding: 8px;
+    line-height: 25px;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    color: #99A3BA;
+    border: 3px solid #CDD9ED;
+    background: #fff;
+    transition: border .3s ease;
+ 
+}
+
+.search::placeholder {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #CBD1DC;
+}
+.search:focus {
+    outline: none;
+    border-color: #275EFE;
+}
+
+.form-group {
+    margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.county{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+width: 20%;
+height: 80px;
+background-color: #d4edff;
+border-radius: 20px;
+
+border: 2px solid #bfe4ff;
+border-radius: 20px;
+margin-top: 50px;
+padding-right: 15px;
+margin-right: 20px;
+margin-left: 20px;
+padding-left: 20px;
+}
+.miniflag{
+width: 70px;
+height: 70px;
+border-radius: 20px;
+}
+.onlyCountry{
+    list-style: none;
+    width: 75%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4edff;
+    min-height: 400px;
+    border: 2px solid #bfe4ff;
+    border-radius: 20px;
+    
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flag{
+width: 400px;
+height: 300px;
+border-radius: 10px;
+}
+
+.countryContainer{
+margin-right: 20%;
+}
+
+.title{
+    font-family: 'PT Sans', sans-serif;    
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px; 
+}
+
+.minititle{
+    font-family: 'PT Sans', sans-serif;
+        font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.capital {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+font-weight: 600;
+line-height: 40px;
+}
+.population{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+font-weight: 600;
+line-height: 40px;
+}
+.languages{
+    margin-top: 10px;
+    padding-left: 45px;
+}
+.languagesTitle{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+font-weight: 600;
+line-height: 30px;
+}
+.languages li{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+font-weight: 600;
+line-height: 30px;
+}
+/* font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px; */
