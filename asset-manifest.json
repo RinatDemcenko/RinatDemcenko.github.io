@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/RinatDemcenko.github.io/static/css/main.ae8ebabb.css",
-    "main.js": "/RinatDemcenko.github.io/static/js/main.302efa45.js",
-    "index.html": "/RinatDemcenko.github.io/index.html",
-    "main.ae8ebabb.css.map": "/RinatDemcenko.github.io/static/css/main.ae8ebabb.css.map",
-    "main.302efa45.js.map": "/RinatDemcenko.github.io/static/js/main.302efa45.js.map"
+    "main.css": "/goit-react-hw-01-components/static/css/main.ae8ebabb.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.302efa45.js",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "main.ae8ebabb.css.map": "/goit-react-hw-01-components/static/css/main.ae8ebabb.css.map",
+    "main.302efa45.js.map": "/goit-react-hw-01-components/static/js/main.302efa45.js.map"
   },
   "entrypoints": [
     "static/css/main.ae8ebabb.css",
