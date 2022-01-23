@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RinatDemcenko.github.io/static/css/main.ae8ebabb.css",
+    "main.js": "/RinatDemcenko.github.io/static/js/main.302efa45.js",
+    "index.html": "/RinatDemcenko.github.io/index.html",
+    "main.ae8ebabb.css.map": "/RinatDemcenko.github.io/static/css/main.ae8ebabb.css.map",
+    "main.302efa45.js.map": "/RinatDemcenko.github.io/static/js/main.302efa45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae8ebabb.css",
+    "static/js/main.302efa45.js"
+  ]
+}
